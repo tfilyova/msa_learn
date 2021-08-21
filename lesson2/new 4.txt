@@ -1,0 +1,212 @@
+Microsoft Windows [Version 6.3.9600]
+(c) Корпорация Майкрософт (Microsoft Corporation), 2013. Все права защищены.
+
+C:\Users\Н>d:
+
+D:\>cd D:\Tanya\обучение\msa\lesson2\RestService
+
+D:\Tanya\обучение\msa\lesson2\RestService>java -jar target/rest-service-0.0.1-SN
+APSHOT.jar
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.0.RELEASE)
+
+2021-08-20 20:31:17.192  INFO 3368 --- [           main] hello.Application
+                  : Starting Application v0.0.1-SNAPSHOT on Tatyana with PID 336
+8 (D:\Tanya\юсєўхэшх\msa\lesson2\RestService\target\rest-service-0.0.1-SNAPSHOT.
+jar started by ═ in D:\Tanya\юсєўхэшх\msa\lesson2\RestService)
+2021-08-20 20:31:17.198  INFO 3368 --- [           main] hello.Application
+                  : No active profile set, falling back to default profiles: def
+ault
+2021-08-20 20:31:20.597  INFO 3368 --- [           main] o.s.b.w.embedded.tomcat
+.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-20 20:31:20.651  INFO 3368 --- [           main] o.apache.catalina.core.
+StandardService   : Starting service [Tomcat]
+2021-08-20 20:31:20.652  INFO 3368 --- [           main] org.apache.catalina.cor
+e.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-08-20 20:31:20.926  INFO 3368 --- [           main] o.a.c.c.C.[Tomcat].[loc
+alhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-20 20:31:20.927  INFO 3368 --- [           main] o.s.web.context.Context
+Loader            : Root WebApplicationContext: initialization completed in 3621
+ ms
+2021-08-20 20:31:21.565  INFO 3368 --- [           main] o.s.s.concurrent.Thread
+PoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 20:31:22.037  INFO 3368 --- [           main] o.s.b.w.embedded.tomcat
+.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-20 20:31:22.058  INFO 3368 --- [           main] hello.Application
+                  : Started Application in 5.961 seconds (JVM running for 6.971)
+
+2021-08-20 20:36:04.079  INFO 3368 --- [nio-8080-exec-2] o.a.c.c.C.[Tomcat].[loc
+alhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 20:36:04.080  INFO 3368 --- [nio-8080-exec-2] o.s.web.servlet.Dispatc
+herServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-20 20:36:04.794  INFO 3368 --- [nio-8080-exec-2] o.s.web.servlet.Dispatc
+herServlet        : Completed initialization in 714 ms
+2021-08-20 20:41:51.479  INFO 3368 --- [extShutdownHook] o.s.s.concurrent.Thread
+PoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+D:\Tanya\обучение\msa\lesson2\RestService>
+D:\Tanya\обучение\msa\lesson2\RestService>java -jar target/rest-service-0.0.1-SN
+APSHOT.jar
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.0.RELEASE)
+
+2021-08-20 20:42:16.262  INFO 16848 --- [           main] hello.Application
+                   : Starting Application v0.0.1-SNAPSHOT on Tatyana with PID 16
+848 (D:\Tanya\юсєўхэшх\msa\lesson2\RestService\target\rest-service-0.0.1-SNAPSHO
+T.jar started by ═ in D:\Tanya\юсєўхэшх\msa\lesson2\RestService)
+2021-08-20 20:42:16.269  INFO 16848 --- [           main] hello.Application
+                   : No active profile set, falling back to default profiles: de
+fault
+2021-08-20 20:42:19.814  INFO 16848 --- [           main] o.s.b.w.embedded.tomca
+t.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-20 20:42:19.881  INFO 16848 --- [           main] o.apache.catalina.core
+.StandardService   : Starting service [Tomcat]
+2021-08-20 20:42:19.898  INFO 16848 --- [           main] org.apache.catalina.co
+re.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-08-20 20:42:20.114  INFO 16848 --- [           main] o.a.c.c.C.[Tomcat].[lo
+calhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-20 20:42:20.115  INFO 16848 --- [           main] o.s.web.context.Contex
+tLoader            : Root WebApplicationContext: initialization completed in 372
+9 ms
+2021-08-20 20:42:20.736  INFO 16848 --- [           main] o.s.s.concurrent.Threa
+dPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 20:42:21.171  INFO 16848 --- [           main] o.s.b.w.embedded.tomca
+t.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+
+2021-08-20 20:42:21.197  INFO 16848 --- [           main] hello.Application
+                   : Started Application in 6.096 seconds (JVM running for 7.551
+)
+2021-08-20 20:42:35.884  INFO 16848 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[lo
+calhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 20:42:35.885  INFO 16848 --- [nio-8080-exec-1] o.s.web.servlet.Dispat
+cherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-20 20:42:35.907  INFO 16848 --- [nio-8080-exec-1] o.s.web.servlet.Dispat
+cherServlet        : Completed initialization in 21 ms
+2021-08-20 20:42:53.495  INFO 16848 --- [extShutdownHook] o.s.s.concurrent.Threa
+dPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+D:\Tanya\обучение\msa\lesson2\RestService>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building rest-service 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ rest-ser
+vice ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ rest-service
+---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to D:\Tanya\обучение\msa\lesson2\RestService\tar
+get\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.099 s
+[INFO] Finished at: 2021-08-20T20:46:06+03:00
+[INFO] Final Memory: 27M/228M
+[INFO] ------------------------------------------------------------------------
+D:\Tanya\обучение\msa\lesson2\RestService>mvn package
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building rest-service 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ rest-ser
+vice ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ rest-service
+---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @
+rest-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Tanya\обучение\msa\lesson2\RestSer
+vice\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ rest-
+service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ rest-service ---
+[INFO]
+[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ rest-service ---
+[INFO] Building jar: D:\Tanya\обучение\msa\lesson2\RestService\target\rest-servi
+ce-0.0.1-SNAPSHOT.jar
+[INFO]
+[INFO] --- spring-boot-maven-plugin:2.3.0.RELEASE:repackage (repackage) @ rest-s
+ervice ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.962 s
+[INFO] Finished at: 2021-08-20T20:46:27+03:00
+[INFO] Final Memory: 24M/261M
+[INFO] ------------------------------------------------------------------------
+D:\Tanya\обучение\msa\lesson2\RestService>java -jar target/rest-service-0.0.1-SN
+APSHOT.jar
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.0.RELEASE)
+
+2021-08-20 20:46:34.689  INFO 17160 --- [           main] hello.Application
+                   : Starting Application v0.0.1-SNAPSHOT on Tatyana with PID 17
+160 (D:\Tanya\юсєўхэшх\msa\lesson2\RestService\target\rest-service-0.0.1-SNAPSHO
+T.jar started by ═ in D:\Tanya\юсєўхэшх\msa\lesson2\RestService)
+2021-08-20 20:46:34.696  INFO 17160 --- [           main] hello.Application
+                   : No active profile set, falling back to default profiles: de
+fault
+2021-08-20 20:46:38.886  INFO 17160 --- [           main] o.s.b.w.embedded.tomca
+t.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-20 20:46:38.938  INFO 17160 --- [           main] o.apache.catalina.core
+.StandardService   : Starting service [Tomcat]
+2021-08-20 20:46:38.939  INFO 17160 --- [           main] org.apache.catalina.co
+re.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-08-20 20:46:39.151  INFO 17160 --- [           main] o.a.c.c.C.[Tomcat].[lo
+calhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-20 20:46:39.152  INFO 17160 --- [           main] o.s.web.context.Contex
+tLoader            : Root WebApplicationContext: initialization completed in 430
+8 ms
+2021-08-20 20:46:39.753  INFO 17160 --- [           main] o.s.s.concurrent.Threa
+dPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 20:46:40.207  INFO 17160 --- [           main] o.s.b.w.embedded.tomca
+t.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+
+2021-08-20 20:46:40.238  INFO 17160 --- [           main] hello.Application
+                   : Started Application in 6.703 seconds (JVM running for 7.817
+)
+2021-08-20 20:46:49.365  INFO 17160 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[lo
+calhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 20:46:49.366  INFO 17160 --- [nio-8080-exec-1] o.s.web.servlet.Dispat
+cherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-20 20:46:49.384  INFO 17160 --- [nio-8080-exec-1] o.s.web.servlet.Dispat
+cherServlet        : Completed initialization in 17 ms
+2021-08-20 20:46:49.502  INFO 17160 --- [nio-8080-exec-1] hello.LoggingAspect
+                   : эрчтрэшх ьхЄюфр: greeting
