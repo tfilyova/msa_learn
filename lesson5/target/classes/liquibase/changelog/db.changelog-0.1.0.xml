@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd
+      http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd">
+
+    <changeSet id="1" author="tfilyova">
+        <createTable tableName="contracts" remarks="Договоры">
+            <column name="id" type="bigint" remarks="Идентификатор">
+                <constraints primaryKey="true"></constraints>
+            </column>
+            <column name="number" type="varchar(255)" remarks="Номер">
+                <constraints nullable="false"/>
+            </column>
+            <column name="client" type="varchar(255)" remarks="Клиент">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2" author="tfilyova">
+        <sql>
+            CREATE SEQUENCE contracts_seq;
+        </sql>
+    </changeSet>
+
+    <changeSet id="3" author="tfilyova">
+        <sql>
+            ALTER TABLE contracts ALTER COLUMN id SET DEFAULT NEXTVAL('contracts_seq');
+        </sql>
+    </changeSet>
+
+</databaseChangeLog>
