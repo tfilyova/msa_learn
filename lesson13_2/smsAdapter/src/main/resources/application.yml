@@ -1,0 +1,23 @@
+server:
+  port: 7095
+
+spring:
+  # Generate Events Publisher or Subsriber
+  kafka:
+    bootstrap-servers: localhost:9092
+  cloud:
+    stream:
+      bindings:
+        smsVerificationCreatedPublish:
+          destination: sms-verification-created
+        smsVerificationDeliveredpublish:
+          destination: sms-verification-delivered
+          group: sms-verification
+      binders:
+        binderName:
+          type: kafka
+
+logging:
+  level:
+    ru.diasoft: ${LOGGING_LEVEL:DEBUG}
+
